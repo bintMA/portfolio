@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mylogo{
+    position: absolute;
+    left: 100px;
+    
+}
+#profileimage {
+    position: absolute;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    top: 15em;
+    right: 5em;
+}
+#mylogo img{
+    height: 100px;
+    width: 100px;
+}
+#intro {
+    text-align: left;
+    color: #232323;
+    padding: 150px 0px ;
+    margin: 100px 80px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    
+}
+nav ul li {
+    display: inline;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+nav ul li a:link{
+    text-decoration: none;
+    color: #0763E3;
+}
+nav ul li a:hover{
+    text-shadow: 0.5px 0.5px #232323;
+    opacity: 20%;
+    color: #232323;
+}
+nav ul li a:visited {
+    color: #0763E3;
+}
+
+.icons{
+    padding: 0 30%;
+}
+#designicon{
+    width: 60px;
+    height: 60px;
+}
+#footerlogo {
+    height: 20px;
+    width: 20px;
+    padding: 0 15px; 
+}
+
+#footertext {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic; 
+    
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1190cb;
+    color: #526173;
+    font-style: italic;
+    font-weight: 300;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+#footermain { 
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1190cb;
+    color: #526173;
+    font-style: italic;
+    font-weight: 300;
+    width: 100%;
+}
+#connect {
+    color: #ffffff;
+    padding-top: 80px;
+    
+    
+}
+h2{
+    color: #1190cb;
+    text-align: center;
+    font-style: italic
+}
+div{
+    margin-bottom: 20%;
+}
+fieldset{
+    height: 300px;
+    width: 200px;
+    line-height: 2em;
+    margin: 20% 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 0 0 1em #0763E3;
+}
+table{
+    margin: 0 50px;
+
+}
+td{
+    padding: 30px;
+}
+#aboutimage{
+    position: absolute;
+    border-radius: 80%;
+    height: 200px;
+    width: 200px;
+    top: 58em;
+    left: 20em;
+}
+p{
+    height: 150px;
+    width: 300px;
+    text-align: left;
+    font-size: large;
+    font-weight: 500;
+    position: relative;
+    left: 40em;  
+}
+#workinprogress{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    position: relative;
+    top: 120px;
+
+}
+
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #0728D9; }
+.My-Color-Theme-2-hex { color: #0763E3; }
+.My-Color-Theme-3-hex { color: #1190CB; }
+.My-Color-Theme-4-hex { color: #07D7E3; }
+.My-Color-Theme-5-hex { color: #07D9A9; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(7, 40, 217, 1); }
+.My-Color-Theme-2-rgba { color: rgba(7, 99, 227, 1); }
+.My-Color-Theme-3-rgba { color: rgba(17, 144, 203, 1); }
+.My-Color-Theme-4-rgba { color: rgba(7, 215, 227, 1); }
+.My-Color-Theme-5-rgba { color: rgba(7, 217, 169, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(230, 93, 43, 1); }
+.My-Color-Theme-2-hsla { color: hsla(214, 94, 45, 1); }
+.My-Color-Theme-3-hsla { color: hsla(199, 84, 43, 1); }
+.My-Color-Theme-4-hsla { color: hsla(183, 94, 45, 1); }
+.My-Color-Theme-5-hsla { color: hsla(166, 93, 43, 1); }
