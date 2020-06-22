@@ -91,6 +91,17 @@ footer {
     width: 30px;
 
 }
+.inspire {
+    font-size: 12px;
+}
+.inspire a {
+    color: #d8d9d8;
+    text-decoration: none;
+}
+.inspire a:hover {
+    color: #0728D9;
+}
+
 /************
 PAGE:ABOUT
 *************/
